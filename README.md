@@ -17,9 +17,9 @@ An experimental framework for sequence tagging task. Consists of BILSTM-softmax,
 # Usage example
 
 The framework funcitons mentioned above has the following options - 
-* dataloader - returns full sequences (one document = one sequence)-> *--BENCHMARK*, Kmeans clustered sequences on document level -> *--KMEANS* (default K = 10), Ngram sequences -> *--NGRAMS* and padded sequences for attention experiment -> *--ATTENTION_DATA* .
+* dataloader - returns full sequences (one document = one sequence)-> `--BENCHMARK`, Kmeans clustered sequences on document level -> `--KMEANS` (default K = 10), Ngram sequences -> `--NGRAMS` and padded sequences for attention experiment -> `--ATTENTION_DATA` .
 
-* Models - model names-> *--BILSTM_SOFTAMAX, --BILSTM_CRF, --CNN, --ATTENTION*
+* Models - model names-> `--BILSTM_SOFTAMAX`, `--BILSTM_CRF`, `--CNN`, `--ATTENTION`
 
 ## Usage in terminal
 To run an experiment use the following command while in the root folder of the project ->
