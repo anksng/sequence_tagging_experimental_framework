@@ -25,14 +25,9 @@ The framework funcitons mentioned above has the following options -
 To run an experiment use the following command while in the root folder of the project ->
 ### Training
 '''
-
 python main.py --MODEL_NAME --DATATYPE --PATH_TO_DOCUMENT_XMLS --EMBEDDING DIM 100 --HIDDEN_DIM 10 --NUM_LAYERS 1 --EMBEDDING_MODEL model_name.bin --use_fattext TRUE --num_epochs 100 --learning_rate 0.001 --PATH_TO_SAVED_MODEL /saved_models --TRAIN TRUE
-
 '''
-
 ## Predict - Dumps predictions and metrics at -> --PATH_TO_SAVED_MODEL
 '''
-
 python main.py --MODEL_NAME --DATATYPE --PATH_TO_DOCUMENT_XMLS_TEST_SET --EMBEDDING DIM 100 --HIDDEN_DIM 10 --NUM_LAYERS 1 --EMBEDDING_MODEL model_name.bin --use_fattext TRUE --num_epochs 100 --learning_rate 0.001 --PATH_TO_SAVED_MODEL /saved_models --PREDICT TRUE
-
 '''
