@@ -4,9 +4,9 @@ An experimental framework for sequence tagging task. Consists of BILSTM-softmax,
 # Code structure
 
 * **dataloader** - Loads annotated documents from xml files
-* **models**  - Contains Deep learning models for experiments
-* **train**  - Run training by selecting one of the models  
-* **predict** -  Run predictions using saved PATH_TO/model checkpoints
+* **models**  - Contains Deep learning models namely viz. BILSTM with softmax activation, BILSTM CRF, Attention, CNN for context feature extraction
+* **train**  - Run training by selecting one of the models
+* **predict** -  Run predictions using saved checkpoints at PATH_TO/model_checkpoints 
 * **saved_models**  - Placeholder for saving models
 * **train_fasttext_data**  - Placeholder for fast text training data
 * **utils**  - Utility functions 
