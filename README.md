@@ -28,6 +28,11 @@ To train using default parameters, the following command can be used:
 ```
 python main.py --MODEL_NAME --DATATYPE --PATH_TO_DOCUMENT_XMLS  --TRAIN TRUE
 ```
+For e.g. to start a BILSTM_CRF experiment with Kmeans sequences, when the documents are stored at /home/user/folder/list_of_file_paths.txt use the following:
+```
+python main.py --BILSTM_CRF --KMEANS --PATH_TO_DOCUMENT_XMLS /home/user/folder/list_of_file_paths.txt  --TRAIN TRUE
+```
+
 To specify all the parameters, following use the following options:
 ```
 python main.py --MODEL_NAME --DATATYPE --PATH_TO_DOCUMENT_XMLS --EMBEDDING DIM 100 --HIDDEN_DIM 10 --NUM_LAYERS 1 --EMBEDDING_MODEL model_name.bin --use_fattext TRUE --num_epochs 100 --learning_rate 0.001 --PATH_TO_SAVED_MODEL /saved_models --TRAIN TRUE
