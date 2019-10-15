@@ -1,6 +1,9 @@
 # sequence_tagging_experimental_framework
 An experimental framework for sequence tagging task. Consists of BILSTM-softmax, BILSTM-CRF, BILSTM-CNN-CRF and attention model to empirically compare performance and analyse results
 
+# Dependencies
+
+
 # Code structure
 
 * **dataloader** - Loads annotated documents from xml files
@@ -16,7 +19,7 @@ An experimental framework for sequence tagging task. Consists of BILSTM-softmax,
 
 # Usage example
 
-The framework funcitons mentioned above has the following options - 
+The framework functions mentioned above has the following options - 
 * dataloader - returns full sequences (one document = one sequence)-> `--BENCHMARK`, Kmeans clustered sequences on document level -> `--KMEANS` (default K = 10), Ngram sequences -> `--NGRAMS` and padded sequences for attention experiment -> `--ATTENTION_DATA` .
 
 * Models - model names-> `--BILSTM_SOFTAMAX`, `--BILSTM_CRF`, `--CNN`, `--ATTENTION`
