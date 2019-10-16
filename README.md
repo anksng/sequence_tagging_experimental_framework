@@ -2,13 +2,13 @@
 An experimental framework for sequence tagging task. Consists of BILSTM-softmax, BILSTM-CRF, BILSTM-CNN-CRF and attention model to empirically compare performance and analyse results
 
 # Dependencies
-gensim==3.8.0
-nltk==3.4.5
-torch==1.2.0
-Keras==2.2.4
-python-crfsuite==0.9.6
-pytorch-crf==0.7.2
-jsonargparse==2.2.1
+gensim==3.8.0 //
+nltk==3.4.5 //
+torch==1.2.0 //
+Keras==2.2.4 //
+python-crfsuite==0.9.6 //
+pytorch-crf==0.7.2 //
+jsonargparse==2.2.1 //
 
 
 # Code structure
