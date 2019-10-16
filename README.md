@@ -3,13 +3,13 @@ An experimental framework for sequence tagging task. Consists of BILSTM-softmax,
 
 # Dependencies
 ```
-gensim==3.8.0 <br/>
-nltk==3.4.5 <br/>
-torch==1.2.0 <br/>
-Keras==2.2.4 <br/>
-python-crfsuite==0.9.6 <br/>
-pytorch-crf==0.7.2 <br/>
-jsonargparse==2.2.1 <br/>
+gensim==3.8.0 
+nltk==3.4.5 
+torch==1.2.0 
+Keras==2.2.4
+python-crfsuite==0.9.6
+pytorch-crf==0.7.2
+jsonargparse==2.2.1
 ```
 
 # Code structure
