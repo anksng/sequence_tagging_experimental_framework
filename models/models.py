@@ -139,6 +139,7 @@ class textCNN(nn.Module):
 
 
 '''Attention'''
+'''From - https://mlwhiz.com/blog/2019/03/09/deeplearning_architectures_text_classification/'''
 
 class Attention_layer(nn.Module):
     def __init__(self, feature_dim, step_dim, bias=True, **kwargs):
